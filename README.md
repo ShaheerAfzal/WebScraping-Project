@@ -1,5 +1,21 @@
 # WebScraping-Project
 This project involves creating a Scrapy spider to extract earnings estimate data from Yahoo Finance. The goal is to collect financial forecasts that analysts provide for various companies, we will only be scraping the Earnings Estimate table for this project.
+### How to run:
+> **Note:** You need to have scrapy installed to run this, I have it installed in the environment, but if you face any issues try reinstalling it on your end. Learn how to install Scrapy [here](https://scrapy.org/)
+
+After loading up the project in a code editor, open terminal and go to spiders directory by using:
+```
+cd yScrape/yScrape/spiders
+```
+once in the spiders directory you can start the spider by writing the command:
+```
+scrapy crawl yScraper
+```
+You can make the spider save its scraped data to a file by adding `-o` or `-O` to the end of the crawl command and specifying name of file you want it to create. for example:
+```
+scrapy crawl yScraper -o EarningsEstimate.csv
+```
+The `-o` creates a file or adds to an already existing file, whereas the `-O` creates a file or overwrites an existing file. 
 
 ## Scrapy Framework:
 
