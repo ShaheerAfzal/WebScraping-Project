@@ -5,7 +5,8 @@ This project involves creating a Scrapy spider to extract earnings estimate data
 
 Scrapy is an open-source web crawling framework written in Python, designed for scraping and extracting data from websites.
 A spider will be developed to navigate Yahoo Finance's earnings estimates pages and parse the required data.
-ScrapeOps API:
+
+### ScrapeOps API:
 
 ScrapeOps is a proxy management solution that provides IP rotation services to avoid IP bans and improve scraping success rates.
 The API will be integrated into the Scrapy project to manage IP addresses and rotate them as needed during the scraping process.
