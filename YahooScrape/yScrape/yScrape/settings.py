@@ -11,7 +11,7 @@ BOT_NAME = "yScrape"
 
 SPIDER_MODULES = ["yScrape.spiders"]
 NEWSPIDER_MODULE = "yScrape.spiders"
-SCRAPEOPS_API_KEY = '12c6c1f6-3283-4cf3-a7ab-344f652ae005'
+SCRAPEOPS_API_KEY = '12c6c****005'
 SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = 'https://headers.scrapeops.io/v1/user-agents'
 SCRAPEOPS_FAKE_USER_AGENTS_ENABLED = True
 SCRAPEOPS_NUM_RESULTS = 50
