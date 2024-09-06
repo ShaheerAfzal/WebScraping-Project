@@ -1,4 +1,6 @@
 # WebScraping-Project
+> **Note:** You can edit the code and the endpoints to use this for any website you would like, this works best with static websites or ones that don't update too frequently.
+
 This project involves creating a Scrapy spider to extract earnings estimate data from Yahoo Finance. The goal is to collect financial forecasts that analysts provide for various companies, we will only be scraping the Earnings Estimate table for this project.
 ### How to run:
 > **Note:** You need to have scrapy installed to run this, I have it installed in the environment, but if you face any issues try reinstalling it on your end. Learn how to install Scrapy [here](https://scrapy.org/)
